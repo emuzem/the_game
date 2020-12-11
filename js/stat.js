@@ -1,6 +1,6 @@
 'use strict'
 
-window.renderStatistics = function (ctx, names, times){
+window.renderStatistics = function (ctx, names, times) {
     //the shadow
     ctx.beginPath();
     ctx.moveTo(260, 70);
@@ -37,4 +37,47 @@ window.renderStatistics = function (ctx, names, times){
     ctx.fillStyle = 'black';
     ctx.strokeText('Ура, вы победили!', 230, 80);
     ctx.strokeText('Список результатов:', 225, 100);
+
+    //statistics
+    var MAX_COLUMN_HEIGHT = 70;
+    var theBiggestColumn = times[0];
+    //положение первой точки, которое будет увеличиваться
+    var paramX = 220;
+    //finding the biggest column
+    console.log(times);
+    for(let i = 0; i < 4; i++){
+        if (times[i] > theBiggestColumn){
+            theBiggestColumn = times[i];
+            console.log(theBiggestColumn);
+        }
+    }
+
+    for(let i = 0; i < 4; i++){
+        //initializing colors of another columns
+        var bluerand = getRandomIntInclusive(120, 250);
+        var blue = `rgba(0, 0, ${bluerand}, 0)`;
+        ctx.fillStyle = `rgba(0, 0, ${getRandomIntInclusive(150, 250)}, 1)`;
+        if (names[i] == "Вы") {
+            ctx.fillStyle = 'rgba(255, 0, 0, 1)';
+        }
+        //calculating the sizes
+        var percent = (times[i]*100)/theBiggestColumn;
+        console.log(percent);
+        var height = -(MAX_COLUMN_HEIGHT*percent)/100;
+        console.log(height);
+        //drawing columns
+        ctx.fillRect(paramX, (120 + MAX_COLUMN_HEIGHT), 40, height);
+        ctx.strokeText(names[i], paramX, (120 + MAX_COLUMN_HEIGHT + 20));
+        paramX += 60;
+        //adding the numbers of result above the columns
+        ctx.strokeStyle = "12px PT Mono";
+        // ctx.strokeText(`${times[i]}`, )
+    }
+}
+
+
+function getRandomIntInclusive(min, max) {
+    min = Math.ceil(min);
+    max = Math.floor(max);
+    return Math.floor(Math.random() * (max - min + 1)) + min; //Максимум и минимум включаются
 }

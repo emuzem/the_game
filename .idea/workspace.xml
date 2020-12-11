@@ -20,9 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d28c2112-a9c3-4a62-ac09-ae3ee6d3a539" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/js/stat.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/js/stat.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/stat.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -56,6 +55,16 @@
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
+  <component name="RunManager">
+    <configuration name="stat.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/stat.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Node.js.stat.js" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -65,7 +74,7 @@
       <option name="presentableId" value="Default" />
       <updated>1607529519339</updated>
       <workItem from="1607529520604" duration="3788000" />
-      <workItem from="1607630266687" duration="7196000" />
+      <workItem from="1607630266687" duration="13082000" />
     </task>
     <servers />
   </component>
@@ -84,9 +93,25 @@
     </option>
   </component>
   <component name="WindowStateProjectService">
-    <state x="363" y="253" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1607537133273">
+    <state width="1253" height="162" key="GridCell.Tab.0.bottom" timestamp="1607687355587">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state x="363" y="253" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1280.680@0.0.1280.680" timestamp="1607537133273" />
+    <state width="1253" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607687355587" />
+    <state width="1253" height="162" key="GridCell.Tab.0.center" timestamp="1607687355586">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1253" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607687355586" />
+    <state width="1253" height="162" key="GridCell.Tab.0.left" timestamp="1607687355585">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1253" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607687355585" />
+    <state width="1253" height="162" key="GridCell.Tab.0.right" timestamp="1607687355587">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1253" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607687355587" />
+    <state x="363" y="253" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1607685315527">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="363" y="253" key="vcs.readOnlyHandler.ReadOnlyStatusDialog/0.0.1280.680@0.0.1280.680" timestamp="1607685315527" />
   </component>
 </project>
