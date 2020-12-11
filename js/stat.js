@@ -3,30 +3,30 @@
 window.renderStatistics = function (ctx, names, times) {
     //the shadow
     ctx.beginPath();
-    ctx.moveTo(260, 70);
-    ctx.quadraticCurveTo(150, 80, 190, 140);
-    ctx.quadraticCurveTo(110, 170, 190, 210);
-    ctx.bezierCurveTo(160, 235, 240, 290, 290, 240);
-    ctx.quadraticCurveTo(360, 290, 410, 244);
-    ctx.quadraticCurveTo(510, 240, 460, 180);
-    ctx.quadraticCurveTo(530, 140, 440, 100);
-    ctx.quadraticCurveTo(410, 50, 350, 70);
-    ctx.quadraticCurveTo(310, 20, 260, 70);
+    ctx.moveTo(300, 70);
+    ctx.quadraticCurveTo(190, 80, 230, 140);
+    ctx.quadraticCurveTo(150, 170, 230, 210);
+    ctx.bezierCurveTo(200, 235, 280, 290, 330, 240);
+    ctx.quadraticCurveTo(400, 290, 450, 244);
+    ctx.quadraticCurveTo(550, 240, 500, 180);
+    ctx.quadraticCurveTo(570, 140, 480, 100);
+    ctx.quadraticCurveTo(450, 50, 390, 70);
+    ctx.quadraticCurveTo(350, 20, 300, 70);
     ctx.closePath();
     ctx.fillStyle = 'rgba(0, 0, 0, 0.7)';
     ctx.fill();
 
     //the white figure
     ctx.beginPath();
-    ctx.moveTo(250, 60);
-    ctx.quadraticCurveTo(140, 70, 180, 130);
-    ctx.quadraticCurveTo(100, 160, 180, 200);
-    ctx.bezierCurveTo(150, 225, 230, 280, 280, 230);
-    ctx.quadraticCurveTo(350, 280, 400, 234);
-    ctx.quadraticCurveTo(500, 230, 450, 170);
-    ctx.quadraticCurveTo(520, 130, 430, 90);
-    ctx.quadraticCurveTo(400, 40, 340, 60);
-    ctx.quadraticCurveTo(300, 10, 250, 60);
+    ctx.moveTo(290, 60);
+    ctx.quadraticCurveTo(180, 70, 220, 130);
+    ctx.quadraticCurveTo(140, 160, 220, 200);
+    ctx.bezierCurveTo(190, 225, 270, 280, 320, 230);
+    ctx.quadraticCurveTo(390, 280, 440, 234);
+    ctx.quadraticCurveTo(540, 230, 490, 170);
+    ctx.quadraticCurveTo(560, 130, 470, 90);
+    ctx.quadraticCurveTo(440, 40, 380, 60);
+    ctx.quadraticCurveTo(340, 10, 290, 60);
     ctx.closePath();
     ctx.fillStyle = 'white';
     ctx.fill();
@@ -34,14 +34,14 @@ window.renderStatistics = function (ctx, names, times) {
     //text
     ctx.strokeStyle = 'black';
     ctx.fillStyle = 'black';
-    ctx.strokeText('Ура, вы победили!', 230, 80);
-    ctx.strokeText('Список результатов:', 225, 100);
+    ctx.strokeText('Ура, вы победили!', 270, 80);
+    ctx.strokeText('Список результатов:', 265, 100);
 
     //statistics
     var MAX_COLUMN_HEIGHT = 65;
     var theBiggestColumn = times[0];
     //положение первой точки, которое будет увеличиваться
-    var paramX = 210;
+    var paramX = 250;
     //finding the biggest column
     console.log(times);
     for(let i = 0; i < 4; i++){
