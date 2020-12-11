@@ -74,7 +74,8 @@
       <option name="presentableId" value="Default" />
       <updated>1607529519339</updated>
       <workItem from="1607529520604" duration="3788000" />
-      <workItem from="1607630266687" duration="13082000" />
+      <workItem from="1607630266687" duration="13161000" />
+      <workItem from="1607690198488" duration="537000" />
     </task>
     <servers />
   </component>
@@ -91,24 +92,25 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1253" height="162" key="GridCell.Tab.0.bottom" timestamp="1607687355587">
+    <state width="1253" height="162" key="GridCell.Tab.0.bottom" timestamp="1607690165505">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1253" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607687355587" />
-    <state width="1253" height="162" key="GridCell.Tab.0.center" timestamp="1607687355586">
+    <state width="1253" height="162" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1607690165505" />
+    <state width="1253" height="162" key="GridCell.Tab.0.center" timestamp="1607690165505">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1253" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607687355586" />
-    <state width="1253" height="162" key="GridCell.Tab.0.left" timestamp="1607687355585">
+    <state width="1253" height="162" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1607690165505" />
+    <state width="1253" height="162" key="GridCell.Tab.0.left" timestamp="1607690165504">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1253" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607687355585" />
-    <state width="1253" height="162" key="GridCell.Tab.0.right" timestamp="1607687355587">
+    <state width="1253" height="162" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1607690165504" />
+    <state width="1253" height="162" key="GridCell.Tab.0.right" timestamp="1607690165505">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1253" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607687355587" />
+    <state width="1253" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607690165505" />
     <state x="363" y="253" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1607685315527">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

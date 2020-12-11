@@ -32,17 +32,16 @@ window.renderStatistics = function (ctx, names, times) {
     ctx.fill();
 
     //text
-    ctx.font = '16px PT Mono';
     ctx.strokeStyle = 'black';
     ctx.fillStyle = 'black';
     ctx.strokeText('Ура, вы победили!', 230, 80);
     ctx.strokeText('Список результатов:', 225, 100);
 
     //statistics
-    var MAX_COLUMN_HEIGHT = 70;
+    var MAX_COLUMN_HEIGHT = 65;
     var theBiggestColumn = times[0];
     //положение первой точки, которое будет увеличиваться
-    var paramX = 220;
+    var paramX = 210;
     //finding the biggest column
     console.log(times);
     for(let i = 0; i < 4; i++){
@@ -66,12 +65,14 @@ window.renderStatistics = function (ctx, names, times) {
         var height = -(MAX_COLUMN_HEIGHT*percent)/100;
         console.log(height);
         //drawing columns
+        ctx.font = '16px PT Mono';
         ctx.fillRect(paramX, (120 + MAX_COLUMN_HEIGHT), 40, height);
         ctx.strokeText(names[i], paramX, (120 + MAX_COLUMN_HEIGHT + 20));
-        paramX += 60;
         //adding the numbers of result above the columns
-        ctx.strokeStyle = "12px PT Mono";
-        // ctx.strokeText(`${times[i]}`, )
+        ctx.font= "12px PT Mono";
+        ctx.strokeText(`${Math.floor(times[i])}`, (paramX+5), (115 + MAX_COLUMN_HEIGHT + height));
+        //сдвиг по оси х
+        paramX += 60;
     }
 }
 
