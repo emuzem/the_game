@@ -2,7 +2,7 @@ const setup = document.querySelector('.setup');
 setup.classList.remove('hidden');
 const charactersBlock = document.querySelector('.setup-similar');
 charactersBlock.classList.remove('hidden');
-const characterTemplate = document.querySelector('#similar-wizard-template');
+const characterTemplate = document.querySelector('#similar-wizard-template').content.querySelector('.setup-similar-item');
 const listSimilarCharacters = document.querySelector('.setup-similar-list');
 
 //массивы с данными
@@ -14,16 +14,23 @@ let character = [];
 
 //заполнение персонажей данными
 
+cloneSimilarWizard = function (character) {
+    let clone = characterTemplate.cloneNode(true);
+    clone.querySelector('.setup-similar-label').textContent = character.name;
+    clone.querySelector('.wizard-coat').style.fill = character.coatColor;
+    clone.querySelector('.wizard-eyes').style.fill = character.eyesColor;
+    return clone;
+}
+
+let docElement = document.createDocumentFragment();
+
 for(let i = 0; i<4; i++){
     character[i] = {
         name: firstNamesList[getRandomIntInclusive(0, 6)] + ' ' + secondNamesList[getRandomIntInclusive(0, 7)],
         coatColor: coatColorList[getRandomIntInclusive(0, 5)],
         eyesColor: eyesColorList[getRandomIntInclusive(0, 4)]
     }
-
+   docElement.appendChild(cloneSimilarWizard(character[i]));
 }
-/*
-function cloneSimilarWizard (character) {
-    let clone = characterTemplate.cloneNode(true);
-    clone.querySelector('.setup-similar-label').te
-}*/
+listSimilarCharacters.appendChild(docElement);
+
