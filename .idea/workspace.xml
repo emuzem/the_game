@@ -21,6 +21,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d28c2112-a9c3-4a62-ac09-ae3ee6d3a539" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/setup.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +78,13 @@
       <workItem from="1607529520604" duration="3788000" />
       <workItem from="1607630266687" duration="13161000" />
       <workItem from="1607690198488" duration="2062000" />
-      <workItem from="1607710504109" duration="4713000" />
+      <workItem from="1607710504109" duration="7003000" />
+      <workItem from="1608214614787" duration="10034000" />
+      <workItem from="1608580985077" duration="3265000" />
+      <workItem from="1608658550326" duration="5000" />
+      <workItem from="1608713916935" duration="5149000" />
+      <workItem from="1608743896190" duration="2021000" />
+      <workItem from="1608757356211" duration="3741000" />
     </task>
     <servers />
   </component>
@@ -112,6 +120,10 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state width="1253" height="162" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1607690165505" />
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup" timestamp="1608723488839">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="303" y="1" width="672" height="678" key="search.everywhere.popup/0.0.1280.680@0.0.1280.680" timestamp="1608723488839" />
     <state x="363" y="253" key="vcs.readOnlyHandler.ReadOnlyStatusDialog" timestamp="1607685315527">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

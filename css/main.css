@@ -11,6 +11,9 @@ body {
 
   background: #da641a;
 }
+.upload {
+  cursor: grabbing;
+}
 
 h1,
 h2 {
