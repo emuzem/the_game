@@ -7,6 +7,7 @@ const setupOpenElem = document.querySelector('.setup-open');
 const setupHideElem = document.querySelector('.setup-close');
 const usernameInput = document.querySelector('.setup-user-name');
 const setupWizard = document.querySelector('.setup-wizard');
+//
 
 //массивы с данными
 let fireballColorList = ['#ee4830', '#30a8ee', '#5ce6c0', '#e848d5', '#e6e848'];
