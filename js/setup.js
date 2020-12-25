@@ -27,6 +27,8 @@ function showBlock (){
 function hideBlock (){
     setup.classList.add('hidden');
     document.removeEventListener('keydown', hideBlockByEscape);
+    setup.style.left = defaultStatus;
+    setup.style.top = defaultStatus;
 }
 function hideBlockByEnter(ev){
         if (ev.which === 13) {
@@ -157,5 +159,4 @@ draggableIcon.addEventListener('mousedown', (evDown)=> {
     document.addEventListener('mousemove', onMouseMove);
     document.addEventListener('mouseup', onMouseUp);
 });
-
 
