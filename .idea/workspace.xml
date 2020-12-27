@@ -20,7 +20,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d28c2112-a9c3-4a62-ac09-ae3ee6d3a539" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/js/dragAndDropSetup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/evListenersSetup.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/form.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/js/similarCharacters.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/js/setup.js" beforeDir="false" afterPath="$PROJECT_DIR$/js/setup.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -84,6 +89,9 @@
       <workItem from="1608743896190" duration="2021000" />
       <workItem from="1608757356211" duration="5696000" />
       <workItem from="1608816654825" duration="599000" />
+      <workItem from="1608901428352" duration="362000" />
+      <workItem from="1609005377356" duration="12000" />
+      <workItem from="1609071116915" duration="1397000" />
     </task>
     <servers />
   </component>
