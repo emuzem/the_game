@@ -11,7 +11,7 @@ function postData (form) {
         formData.forEach((value, key) => {
             obj[key] = value;
         });
-        fetch('https://js.dump.academy/code-and-magick', {
+        fetch('http://localhost:3000/requests', {
             method: 'POST',
             headers: {
                 'multipart': 'form-data',
@@ -20,6 +20,7 @@ function postData (form) {
             body: JSON.stringify(obj)
         }).then(data => data.json()
         ).then(json => console.log(json)
+        ).then(()=>setup.classList.add('hidden')
         ).catch(() => console.log('failure'));
     });
 }
