@@ -27,17 +27,27 @@ const cloneSimilarWizard = function (name, coat, eyes) {
 }
          setup.querySelector('.setup-similar').classList.remove('hidden');
 
-
+let lastTimeout = undefined;
 function changeWizardColors(wizard){
     let coat =  wizard.querySelector('.wizard-coat');
     coat.addEventListener('click', ()=> {
         coat.style.fill = coatColorList[getRandomIntInclusive(0, 5)];
-        updateWizards();
+       if(lastTimeout){
+           window.clearTimeout(lastTimeout);
+       }
+       lastTimeout = window.setTimeout(function (){
+           updateWizards();
+       }, 400);
     });
     let eyes = wizard.querySelector('.wizard-eyes');
     eyes.addEventListener('click', ()=> {
         eyes.style.fill = eyesColorList[getRandomIntInclusive(0, 4)];
-        updateWizards();
+        if(lastTimeout){
+            window.clearTimeout(lastTimeout);
+        }
+        lastTimeout = window.setTimeout(function (){
+            updateWizards();
+        }, 400);
     });
     let fireball = document.querySelector('.setup-fireball-wrap');
     fireball.addEventListener('click', () => {
@@ -87,9 +97,6 @@ getResources('http://localhost:3000/wizards')
             listSimilarCharacters.innerHTML = ` `;
             chooseSimilarWizards(data);
         }
-        // const newData = data.splice(0, 4);
-        // newData.forEach(el => {
-        //     showSimilarWizards(el.name, el.colorCoat, el.colorEyes)
-        // });
-
+        updateWizards();
     });
+
